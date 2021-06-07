@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[metadata]
+name = srvres
+version = 0.1.0
+description = A somewhat simple-- yet useful-- SRV resolver in around 100 lines of Python code.
+readme = README.md
+license = MIT
+authors = [
+	{name='Robert "khuxkm" Miles',email="khuxkm+srvres@tilde.team"}
+]
+urls = {
+	Source="https://github.com/MineRobber9000/srvres"
+}
+dependencies = ["dnspython"]
+classifiers = [
+	"Development Status :: 5 - Production/Stable"
+]
+
+[options]
+packages = find:
